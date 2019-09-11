@@ -9,3 +9,12 @@ def sum_array( numbers )
   end
   return sum
 end
+
+def is_item_in_array(houses_array, find_house)
+  for house in houses_array
+    if house == find_house
+      return true
+    end
+  end
+  return false 
+end
