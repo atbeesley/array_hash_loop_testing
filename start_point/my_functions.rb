@@ -16,5 +16,11 @@ def is_item_in_array(houses_array, find_house)
       return true
     end
   end
-  return false 
+  return false
+end
+
+def get_first_key( hash )
+  for key, value in hash
+    return key
+  end
 end
